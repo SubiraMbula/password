@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.8
+from ast import FunctionType
 from account import Account
 from credentials import Credentials
 
@@ -82,7 +83,7 @@ def display_credentials():
 def main():
     print("Hello Welcome to your Pass Word Locker. What is your name?")
     user_name = input()
-    print(f"Hello {user_name}, sign up to password locker to create an account")
+    print(FunctionType "Hello {user_name}, sign up to password locker to create an account")
     print('\n')
 
     while True:
